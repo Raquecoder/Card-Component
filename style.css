@@ -1,0 +1,104 @@
+
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Blinker', sans-serif;
+    font-size:16px;
+}
+
+.card{
+    
+    display:flex;
+    flex-direction: column;
+}
+
+.card-image{
+    object-fit: cover;
+    flex-basis: 250px;
+    min-width: 0;
+    min-height: 0;
+}
+
+
+
+h1{
+    font-family: "Blinker,Bold";
+    font-size:0.625 rem;
+    color:#05cbe9;
+    text-align: left;
+}
+
+p{
+    font-style:"Sans Pro,regular";
+    font-size:1rem;
+    color:#ffffff;
+    text-align:left;
+    max-width: 500px;
+
+}
+.p{
+    opacity:0.5;
+}
+
+span{
+    font-weight: 900;
+}
+.read-more-text{
+    color: #111d4a;
+    font-size:1.25em;
+}
+button{
+    background-color: #05cbe9;
+    color:#111d4a;
+    padding:.1em 3em  .1em 3em;
+    margin-top: auto;
+    letter-spacing: 1px;
+    opacity: 1;
+    border:0;
+}
+
+button:hover,
+button:focus {
+    background-color:#111d4a;
+    border:1px white solid;
+    color:#05cbe9;
+    
+}
+
+
+.text-bottom{
+    margin-top:5em;
+    
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.text-box{
+    background-color: #111d4a;
+    padding-right:15px;
+    padding-left:15px;
+    padding-bottom:20px;
+   }
+
+
+@media( min-width:600px){
+  .card {
+        flex-direction: row;
+
+    }
+ .card-image{
+        height:400px;
+    }
+    .text-bottom{
+        
+        margin-top: 8.5em;
+    }
+
+ }
+
+
+
+
